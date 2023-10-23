@@ -3,89 +3,106 @@
 <head>
     <title>Biodata</title>
 </head>
+<style>
+    .name{
+        width:max-content;
+    }
+    .address{
+        width: max-content;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    td{
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .header{
+        text-align: center;
+    }
+
+</style>
 <body>
     <h1>BIODATA</h1>
 
-    <table border="1" cellspacing="0" cellpadding="10">
+    <table>
         <tr>
-            <td>
-                <h2>Name</h2>
+            <td class="header">
+                Name
             </td>
-            <td>
+            <td class="name">
                 Muhammad Danish bin Mat Faudzei
             </td>
             <td class ="photo"><img src="./niny.jpg" alt="" width="120px" height="125px"></td>
         </tr>
         <tr>
-            <td>Date of Birth</td>
-            <td>7/6/2002</td>
+            <td class="header">Date of Birth</td>
+            <td colspan="2">7/6/2002</td>
         </tr>
         <tr>
-            <td>Religion</td>
-            <td>Islam</td>
+            <td class="header">Religion</td>
+            <td colspan="2">Islam</td>
         </tr>
         <tr>
-            <td>Race</td>
-            <td>Malay</td>
+            <td class="header">Race</td>
+            <td colspan="2">Malay</td>
         </tr>
         <tr>
-            <td>Address</td>
-            <td>Street</td>
+            <td class="header" rowspan="4">Address</td>
+            <td  class="address">Street</td>
             <td>Kg Temehil</td>
         </tr>
        
         <tr>
-            <td></td>
+            
             <td>Town</td>
             <td>Yong Peng</td>
         </tr>
         <tr>
-            <td></td>
+        
             <td>District</td>
             <td>Batu Pahat</td>
         </tr>
         <tr>
-            <td></td>
+            
             <td>State</td>
             <td>Johor</td>
         </tr>
         <tr>
-            <td>Contact</td>
+            <td class="header" rowspan="3">Contact</td>
             <td>Mobile Phone</td>
             <td>017-7988227</td>
         </tr>
        
         <tr>
-            <td></td>
-            <td>Town</td>
-            <td>Yong Peng</td>
+       
+            <td>Social Media</td>
+            <td>poteks</td>
         </tr>
         <tr>
-            <td></td>
-            <td>District</td>
-            <td>Batu Pahat</td>
+           
+            <td>Website</td>
+            <td>poteks</td>
         </tr>
             
         </tr>
         <tr>
-            <td>Course and Institution</td>
-            <td>Science Computer(Software Engineering)</td>
-            <td>Institution Name</td>
+            <td class="header">Course and Institution</td>
+            <td colspan="2">Science Computer(Software Engineering)</td>
+          
         </tr>
         <tr>
             <td>Programming Skills</td>
-            <td>Intermediate</td>
-            <td>Programming Language</td>
+            <td colspan="2">Intermediate</td>
+            
         </tr>
         <tr>
             <td>Personal Interests</td>
-            <td>Secret</td>
-            <td>Hobbies</td>
+            <td colspan="2">Secret</td>
+            
         </tr>
         <tr>
             <td>Future Plan in 2024</td>
-            <td>Be a good person</td>
-            <td>Career Goals</td>
+            <td colspan="2">Be a good person</td>
         </tr>
     </table>
 </body>
